@@ -1,0 +1,376 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+header{
+    background-color: rgb(24, 24, 24);
+    height: 20%;
+    width: 100%;
+    float:right;
+    border: solid 2px;
+    animation-name: AnimationColor;
+    animation-duration:120s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    border-top: none;
+    
+    
+}
+details{
+    display: inline-block;
+    background-color: rgb(24, 24, 24);
+    height: 100%;
+    width: 14%;
+    text-align: center;
+    float:left;
+    line-height: 125px;
+    animation-name:AnimationColor ;
+    animation-duration:120s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    
+}
+p{
+    background-color: rgb(68, 68, 68);
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    border: solid 0.1px;
+    
+}
+p:hover{
+    background-color: black;
+    cursor: pointer;
+}
+#link1{
+    height: 100%;
+    width: 14%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 125px;
+    animation-name:AnimationColor ;
+    animation-duration:120s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+
+}
+#divofheader{
+    height: 100% ;
+    width: 71%;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    
+}
+#title{
+    display: inline-block;
+    line-height: 100px;
+    transform: translateX(-100px);
+    font-size: 50px;
+    animation-name:AnimationColor ;
+    animation-duration:120s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    
+}
+#signIn-button{
+    height: 40px;
+    width: 100px;
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    animation-name: AnimationColor;
+    animation-duration:120s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;    background-color: black;
+    border-radius: 50px;
+    border:rgb(0, 0, 0)
+
+    
+}
+#signIn-button:hover{
+    cursor: not-allowed ;
+}
+details:hover{
+    background-color: black;
+    cursor: pointer;
+    
+}
+#link1:hover{
+    background-color: black;
+}
+
+/* ---- end of header ----- */
+
+@keyframes AnimationBackgroundcolor{
+    0%{background-color: aqua;}
+    10%{background-color:blue;}
+    20%{background-color:darkmagenta;}
+    30%{background-color:hotpink;}
+    40%{background-color:springgreen;}
+    50%{background-color:yellow;}
+    60%{background-color: rgb(255, 8, 0);}
+    70%{background-color: rgb(117, 0, 250);}
+    80%{background-color: rgb(0, 160, 133);}
+    90%{background-color: rgb(91, 99, 168);}
+    100%{background-color: rgb(255, 0, 106);}
+}
+@keyframes AnimationColor{
+    0%{color: aqua;}
+    10%{color:blue;}
+    20%{color:darkmagenta;}
+    30%{color:hotpink;}
+    40%{color:springgreen;}
+    50%{color:yellow;}
+    60%{color: rgb(255, 8, 0);}
+    70%{color: rgb(117, 0, 250);}
+    80%{color: rgb(0, 160, 133);}
+    90%{color: rgb(91, 99, 168);}
+    100%{color: rgb(255, 0, 106);}
+}
+main{
+    background: url(programming2.gif);
+    height: 80%;
+    width: 80%;
+    float: right;
+    background-blend-mode:luminosity;
+    animation-name: AnimationBackgroundcolor;
+    animation-duration:120s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+aside{
+    height: 40%;
+    width: 20%;
+    float: left;
+    background-color: rgb(24, 24, 24);
+    
+}
+aside div{
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+aside div img{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 100px;
+    border-bottom: solid 2px;
+    animation-name: AnimationColor;
+    animation-duration:120s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+aside div h3{
+    border-top: solid 2px;
+    animation-name: AnimationColor;
+    animation-duration:120s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+#profileImg:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#divOfMain{
+    background-color: rgb(24, 24, 24);
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    margin-top: -20px;
+    transform: translateY(50px);
+    clip-path: polygon(20% 0%, 80% 0%, 100% 5%, 100% 95%, 80% 100%, 20% 100%, 0 95%, 0 5%);
+    border: solid 2px;
+    animation-name: AnimationColor;
+    animation-duration:120s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    text-align: center;
+    line-height: 20px;
+    position: relative;
+}
+.picsOfMain{
+    height: 48%;
+    width: 32%;
+    margin-top: 3px;
+}
+span{
+    color: blue;
+    background-color: rgb(24, 24, 24);
+    position: absolute;
+    top: 92%;
+    right: 37%;
+    height: 4.5%;
+    width: 20%;
+    transform: translateX(40%);
+    line-height: 26px;
+    border: solid 3.5px;
+    animation-name: AnimationColor;
+    animation-duration:120s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    border-left: none;
+    border-right: none;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 10%, 100% 90%, 80% 100%, 20% 100%, 0 90%, 0 10%);
+
+
+}
+.picsOfMain:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+article{
+    height: 40%;
+    width: 20%;
+    float: left;
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+}
+
+article img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    animation-name: AnimationBackgroundcolor;
+    animation-duration:120s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+/* media screen */
+
+@media only screen and (max-width:1000px) and (min-width:800px) {
+    
+    details, #link1{
+        width: 20%;
+        float: left;
+    }
+    #divofheader{
+        width: 50%;
+    }
+    #title{
+        width: 60%;
+        font-size: 30px;
+        line-height: 160%;
+    }
+    #signIn-button{
+        left: 350px;
+    }
+    
+}
+@media only screen and (max-width:799px) and (min-width:600px){
+    #profileImg{
+        height: 70px;
+        width: 70px;
+    }
+    details, #link1{
+        width: 15%;
+        float: left;
+    }
+    #divofheader{
+        width: 50%;
+        left: 10%;
+    }
+    #signIn-button{
+        left: 250px;
+    }
+    #title{
+        width: 60%;
+        font-size: 30px;
+        line-height: 160%;
+    }
+    h3{
+        line-height: 90px;
+    }
+    article img{
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width:599px) and (min-width:511px){
+    #profileImg{
+        height: 70px;
+        width: 70px;
+    }
+    details, #link1{
+        width: 19%;
+        float: right;
+    }
+    #divofheader{
+        width: 50%;
+        left: 10%;
+        float: left;
+    }
+    #signIn-button{
+        margin-left: 5px;
+    }
+    #title{
+        width: 60%;
+        font-size: 25px;
+        line-height: 160%;
+        margin: 10px;
+        margin-left: 30px;
+    }
+    h3{
+        line-height: 90px;
+    }
+    article img{
+        
+        height: 30px;
+        width: 30px;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin: 5px;
+    }
+}
+@media only screen and (max-width:510px) and (min-width:500px){
+    #profileImg{
+        height: 70px;
+        width: 70px;
+    }
+    details, #link1{
+        width: 19%;
+        float: right;
+    }
+    #divofheader{
+        width: 50%;
+        left: 10%;
+        float: left;
+    }
+    #signIn-button{
+        margin-left: 5px;
+    }
+    #title{
+        width: 60%;
+        font-size: 25px;
+        line-height: 160%;
+        margin: 10px;
+        margin-left: 30px;
+    }
+    h3{
+        line-height: 40px;
+    }
+    article img{
+        
+        height: 30px;
+        width: 30px;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin: 5px;
+    }
+}
